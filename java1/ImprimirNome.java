@@ -7,6 +7,8 @@ public class ImprimirNome {
 
         Scanner scanner = new Scanner(System.in); // Criando um scanner para receber os dados do usuario.
 
+        scanner.close(); //fechamos o scanner para evitar vazamentos de recursos
+
         System.out.print("Digite seu nome: ");
         String name = scanner.nextLine();
 

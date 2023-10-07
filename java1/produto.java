@@ -7,7 +7,7 @@ public class produto {
 
         int multiplicação = a * b;
         
-        System.out.print(multiplicação);
+        System.out.print("O produto da multiplicação é: " + multiplicação);
     }
     
 }
