@@ -1,4 +1,4 @@
-package java2;
+package java1;
 
 public class SequenciaDeFibonacci {
     public static void main(String[] args) {
