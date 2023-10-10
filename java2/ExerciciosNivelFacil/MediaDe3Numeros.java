@@ -1,4 +1,4 @@
-package java2;
+package java2.ExerciciosNivelFacil;
 
 public class MediaDe3Numeros {
     public static void main(String[] args){

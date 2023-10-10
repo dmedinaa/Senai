@@ -1,5 +1,5 @@
 
-package java2;
+package java2.ExerciciosNivelFacil;
 
 import java.util.Scanner;
 

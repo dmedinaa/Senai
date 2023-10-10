@@ -1,4 +1,4 @@
-package java2;
+package java2.ExerciciosSuperFácil;
 
 public class Helloworld {
     public static void main(String[] args){
