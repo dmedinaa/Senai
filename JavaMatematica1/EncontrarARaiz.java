@@ -7,9 +7,9 @@ public class EncontrarARaiz {
         double b = -7;
         double c = 2;
 
-        double delta = b * b - 4 * a * c;
+        double delta = b * b - 4 * a * c; //adicionamos a formula de delta.
 
-        if (delta > 0) {
+        if (delta > 0) { //if/else para caso a raiz seja real ou não
             double x1 = (-b + Math.sqrt(delta)) / (2 * a);
             double x2 = (-b - Math.sqrt(delta)) / (2 * a);
             System.out.println("As raízes da equação são: x1 = " + x1 + " e x2 = " + x2);
