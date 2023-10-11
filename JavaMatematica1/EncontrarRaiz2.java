@@ -7,7 +7,6 @@ public class EncontrarRaiz2 {
         double b = 5;
         double c = -3;
 
-        // Calculando o discriminante.
         double delta = b * b - 4 * a * c;
 
         // Calculando as raízes usando a fórmula de Bhaskara.
