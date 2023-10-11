@@ -5,9 +5,9 @@ public class VolumeDoCilindro {
         double volumeCilindro = 785; // adicionamos o volume do cilindro em cm²
         double alturaCilindro = 13; // adicionamos a altura do Cilindro em cm²
 
-        double raioCilindro = Math.sqrt(volumeCilindro / (Math.PI * alturaCilindro)); // 
+        double raioCilindro = Math.sqrt(volumeCilindro / (Math.PI * alturaCilindro)); // adicionamos a formula.
         System.out.println("Raio do cilindro: " + raioCilindro + " cm");
-        System.out.println("Altura do cilindro: " + alturaCilindro + " cm");
+        System.out.println("Altura do cilindro: " + alturaCilindro + " cm"); //printamos os resultados.
     }
 
 }
