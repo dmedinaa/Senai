@@ -6,7 +6,7 @@ public class AreaCirculo {
 
         double area = Math.PI * raio * raio; //adicionamos a formula 
 
-        System.out.println("A área do círculo é: " + area);
+        System.out.println("A área do círculo é: " + area); // printamos o recultado.
  }
 
 }
