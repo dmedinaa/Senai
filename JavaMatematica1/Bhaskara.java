@@ -7,7 +7,7 @@ public class Bhaskara {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Digite os coeficientes da equação quadrática:");
+        System.out.println("Digite os coeficientes da equação quadrática:"); // criamos uma sequencia de scanner para salvar os dados fornecidos pelo usuário
         System.out.print("a: ");
         double a = scanner.nextDouble();
         System.out.print("b: ");
@@ -15,9 +15,9 @@ public class Bhaskara {
         System.out.print("c: ");
         double c = scanner.nextDouble();
 
-        double delta = b * b - 4 * a * c;
+        double delta = b * b - 4 * a * c; //colocamos a formula de delta
 
-        if (delta > 0) {
+        if (delta > 0) { // if/esle para as contições de ser uma raiz real ou não
             double x1 = (-b + Math.sqrt(delta)) / (2 * a);
             double x2 = (-b - Math.sqrt(delta)) / (2 * a);
             System.out.println("As raízes da equação são: x1 = " + x1 + " e x2 = " + x2);
