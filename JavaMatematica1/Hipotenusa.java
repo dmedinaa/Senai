@@ -7,7 +7,7 @@ public class Hipotenusa {
 
         double hipotenusa = Math.sqrt(a * a + b * b); // adicionamos a formula da hipotenusa.
 
-        System.out.println("A hipotenusa do triângulo é: " + hipotenusa);
+        System.out.println("A hipotenusa do triângulo é: " + hipotenusa); //imprimimos o resultado.
     }
 }
 
