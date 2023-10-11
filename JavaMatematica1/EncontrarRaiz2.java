@@ -2,15 +2,15 @@ package JavaMatematica1;
 
 public class EncontrarRaiz2 {
     public static void main(String[] args) {
-        // Coeficientes da equação quadrática
+        // Coeficientes da equação quadrática.
         double a = 2;
         double b = 5;
         double c = -3;
 
-        // Calculando o discriminante
+        // Calculando o discriminante.
         double delta = b * b - 4 * a * c;
 
-        // Calculando as raízes usando a fórmula de Bhaskara
+        // Calculando as raízes usando a fórmula de Bhaskara.
         if (delta > 0) {
             double x1 = (-b + Math.sqrt(delta)) / (2 * a);
             double x2 = (-b - Math.sqrt(delta)) / (2 * a);
