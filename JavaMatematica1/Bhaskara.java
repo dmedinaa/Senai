@@ -5,9 +5,9 @@ import java.util.Scanner;
 
 public class Bhaskara {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);// criamos uma sequencia de scanner para salvar os dados fornecidos pelo usuário.
 
-        System.out.println("Digite os coeficientes da equação quadrática:"); // criamos uma sequencia de scanner para salvar os dados fornecidos pelo usuário.
+        System.out.println("Digite os coeficientes da equação quadrática:"); 
         System.out.print("a: ");
         double a = scanner.nextDouble();
         System.out.print("b: ");
