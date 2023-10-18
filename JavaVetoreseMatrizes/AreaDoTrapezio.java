@@ -1,3 +1,4 @@
+package JavaVetoreseMatrizes;
 import java.util.Scanner;
 
 public class AreaTrapezio {
