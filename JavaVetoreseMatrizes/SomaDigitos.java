@@ -1,4 +1,4 @@
-JavaVetoreseMatrizes;
+package JavaVetoreseMatrizes;
 import java.util.Scanner;
 
 public class SomaDigitos {
